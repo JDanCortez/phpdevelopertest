@@ -38,6 +38,11 @@ class Validation extends BaseConfig
         'single' => 'CodeIgniter\Validation\Views\single',
     ];
 
+    public $post = [
+        'title' => 'required',
+        'post' => 'required',
+    ];
+
     // --------------------------------------------------------------------
     // Rules
     // --------------------------------------------------------------------
